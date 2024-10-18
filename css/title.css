@@ -1,0 +1,36 @@
+@media only screen and (max-device-width: 480px) {
+
+    #title {
+        background-size: 100%;
+        background-repeat: no-repeat;   
+        background-position: 0% 50%;
+    }
+
+    #title>figure {
+        margin: 1vh auto 1vh auto;
+        width: 60vw;
+    }
+
+    #title>figure>img {
+        
+        width: 60vw;
+    }
+}
+
+@media only screen and (min-device-width: 480px) {
+
+    #title {
+        width: 100vw;
+        height: 65vh;
+    }
+    
+    #title>figure {
+        margin: 0px 0px 0px auto;
+        width: 50%;
+    }
+    
+    #title>figure>img {
+        margin-left: 5vw;
+        height: 100%;
+    }
+}

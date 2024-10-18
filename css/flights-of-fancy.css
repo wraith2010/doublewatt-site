@@ -1,0 +1,67 @@
+@media only screen and (max-device-width: 480px) {
+
+    article>figure>object {
+        width: 100vw;
+        height: 56vw;
+    }
+
+    #gallery>figure {
+
+        text-align: center;
+    }
+
+    #gallery a {
+        margin: 5vh auto 5vh auto;
+    }
+
+    #gallery img {
+        width: 40vw;
+    }
+}
+
+@media only screen and (min-device-width: 480px) {
+    #title {
+        background-image: url('../img/flights-of-fancy-boxshot.jpg');
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: 0% 50%;
+    }
+
+    #title>figure {
+        background: rgba(255, 255, 255, 0.2);
+    }
+
+    article>figure>img {
+        height: 100%;
+        object-fit: cover;
+        object-position: 0% 50%;
+    }
+
+    article>figure>object {
+        width: 60vw;
+        height: 33vw;
+    }
+
+    #gallery {
+        height: 80vh;
+    }
+
+    #gallery>figure {
+        background: rgba(255, 255, 255, 0.2);
+        display: flex;
+        flex-flow: row wrap;
+        align-content: flex-start;
+        justify-content: center;
+    }
+
+    #gallery a {
+        flex-shrink: 1;
+        flex-basis: auto;
+        max-width: 10vw;
+        margin: 5px;
+    }
+
+    #gallery img {
+        width: 100%;
+    }
+}

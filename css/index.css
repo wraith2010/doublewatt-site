@@ -1,0 +1,25 @@
+@media only screen and (min-device-width: 480px) {
+
+    #title {
+        background-image: url('../img/flights-of-fancy.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 0% 50%;
+    }
+
+    #title>figure {
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+}
+
+@media only screen and (min-device-width: 480px) {
+
+    article>figure>img {
+        height: 100%;
+        object-fit: cover;
+        object-position: 0% 50%;
+    }
+
+
+}

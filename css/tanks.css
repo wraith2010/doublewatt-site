@@ -1,0 +1,13 @@
+#title {
+    background-color: #1D1D1D;
+}
+
+@media only screen and (min-device-width: 480px) {
+
+    #title {
+        background-image: url('../img/tanks/tanks_01.jpg');
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: 0% 30%;
+    }
+}
