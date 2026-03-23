@@ -1,0 +1,96 @@
+#title {
+    background-color: #1a4a6e;
+    background-image: url('../img/bios/game-pile.jpg');
+}
+
+/* Bio cards grid */
+.bios-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 1100px;
+    margin: 32px auto 48px auto;
+    padding: 0 32px;
+    box-sizing: border-box;
+}
+
+article.bio-card {
+    display: flex;
+    flex-direction: column;
+    max-width: none;
+    width: auto;
+    height: auto;
+    min-height: 0;
+    margin: 0;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-card);
+}
+
+article.bio-card > figure {
+    height: 220px;
+    margin: 0;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+article.bio-card > figure > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+article.bio-card > header {
+    width: auto;
+    background-color: var(--color-surface);
+    padding: 20px;
+    box-sizing: border-box;
+    flex: 1;
+    overflow: visible;
+}
+
+article.bio-card > header > h2 {
+    margin: 0 0 4px 0;
+    font-size: var(--text-xl);
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    text-align: left;
+}
+
+article.bio-card > header > h3 {
+    margin: 0 0 12px 0;
+    font-size: var(--text-sm);
+    font-family: var(--font-body);
+    color: #888;
+    font-weight: normal;
+}
+
+article.bio-card > header > p {
+    margin: 0 0 12px 0;
+    font-family: var(--font-body);
+    font-size: var(--text-sm);
+    line-height: 1.6;
+    color: #333;
+}
+
+article.bio-card > header > a {
+    font-family: var(--font-body);
+    font-size: var(--text-sm);
+    color: var(--color-bg);
+}
+
+@media only screen and (max-width: 768px) {
+    .bios-grid {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 20px;
+        gap: 16px;
+        margin: 24px auto 32px auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .bios-grid {
+        grid-template-columns: 1fr;
+        padding: 0 16px;
+    }
+}
