@@ -1,7 +1,15 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Double Watt Games</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Wasted Youth — a satirical card game about collecting the things you obsessed over when you were young. Available now on GameCrafters." />
+    <title>Wasted Youth — Double Watt Games</title>
+    <link rel="icon" href="img/double-watt-bulb-logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/title.css" />
@@ -12,49 +20,74 @@
 <body>
     <nav>
         <div>
-            <img src="img/double-watt-bulb-logo.png" />
+            <img src="img/double-watt-bulb-logo.png" alt="Double Watt Games logo" />
             <h1>Double Watt Games</h1>
         </div>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Wasted Youth</a></li>
+            <li class="current">Wasted Youth</li>
             <li><a href="flights-of-fancy.html">Flights of Fancy</a></li>
             <li><a href="fight.html">Fight</a></li>
             <li><a href="tanks.html">Tanks</a></li>
+            <li><a href="swiss-cheese-union.html">Swiss Cheese Union</a></li>
             <li><a href="bios.html">Bios</a></li>
         </ul>
         <div></div>
     </nav>
+
     <header id="title">
-        <figure><img src="img/wasted-youth/wasted-youth-logo.jpg" /></figure>
+        <div class="title-content">
+            <img src="img/wasted-youth/wasted-youth-logo.jpg" alt="Wasted Youth logo" class="title-logo" />
+            <span class="badge badge-available">Available Now</span>
+        </div>
     </header>
+
     <main>
-        <article>
-            <header>
-                <h2>About</h2>
-                <p>Wasted Youth is a satirical look at the things we obsessed over when we were young, possibly still do
-                    for some of us. Have you ever gotten so caught up in collecting comic books that your forgot they
-                    are supposed to be read. Have you ever bought a toy but never touched it once because it has to stay
-                    mint on card. Then Wasted Youth is about you.</p>
-                <p>Wasted Youth is a card game with a central collection mechanic. Collect the things you're looking for
-                    without giving your opponent what they need to go out first. Mixed in with the collectible cards are
-                    event cards which will either boost a player's position or take down an opponent.</p>
-                <div>
-                    <img src="img/game-crafter-logo.png" style="width: 25%" />
-                    <ul>
-                        <li><b>Status:</b> Buy it now</li>
-                        <li><b>Mechanics:</b> Hand Management, Set Collection</li>
-                        <li><b>Available on:</b> GameCrafters</li>
+        <div class="game-layout">
+            <div class="game-main">
+                <section class="game-section">
+                    <h2>About</h2>
+                    <p>Wasted Youth is a satirical look at the things we obsessed over when we were young, possibly still do
+                        for some of us. Have you ever gotten so caught up in collecting comic books that you forgot they
+                        are supposed to be read? Have you ever bought a toy but never touched it once because it has to stay
+                        mint on card? Then Wasted Youth is about you.</p>
+                    <p>Wasted Youth is a card game with a central collection mechanic. Collect the things you're looking for
+                        without giving your opponent what they need to go out first. Mixed in with the collectible cards are
+                        event cards which will either boost a player's position or take down an opponent.</p>
+                    <figure class="game-figure">
+                        <img src="img/wasted-youth/wasted-youth-play-02.jpg"
+                            alt="Wasted Youth gameplay" loading="lazy" />
+                    </figure>
+                </section>
+            </div>
+            <aside class="game-sidebar">
+                <div class="sidebar-inner">
+                    <a href="https://www.thegamecrafter.com/games/wasted-youth1" class="buy-now" target="_blank">
+                        Buy Now on GameCrafters
+                    </a>
+                    <h3 class="sidebar-title">Game Details</h3>
+                    <ul class="game-meta">
+                        <li>
+                            <span class="meta-label">Status</span>
+                            <span class="badge badge-available">Available for Purchase</span>
+                        </li>
+                        <li>
+                            <span class="meta-label">Available on</span>
+                            <span class="meta-value">GameCrafters</span>
+                        </li>
+                        <li>
+                            <span class="meta-label">Mechanics</span>
+                            <span class="meta-value">Hand Management, Set Collection</span>
+                        </li>
                     </ul>
+                    <img src="img/game-crafter-logo.png" alt="GameCrafters" class="partner-logo" />
                 </div>
-            </header>
-            <figure><img src="img/wasted-youth/wasted-youth-play-02.jpg"
-                    style="height: 100%;  object-fit:cover; object-position: 0% 50%;" />
-            </figure>
-        </article>
+            </aside>
+        </div>
     </main>
+
     <footer>
-        <p>© 2020 by Double Watt Games</p>
+        <p>© 2026 by Double Watt Games</p>
     </footer>
 </body>
 

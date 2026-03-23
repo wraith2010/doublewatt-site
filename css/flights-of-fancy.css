@@ -1,67 +1,56 @@
-@media only screen and (max-device-width: 480px) {
-
-    article>figure>object {
-        width: 100vw;
-        height: 56vw;
-    }
-
-    #gallery>figure {
-
-        text-align: center;
-    }
-
-    #gallery a {
-        margin: 5vh auto 5vh auto;
-    }
-
-    #gallery img {
-        width: 40vw;
-    }
+#title {
+    background-image: url('../img/flights-of-fancy-boxshot.jpg');
 }
 
-@media only screen and (min-device-width: 480px) {
-    #title {
-        background-image: url('../img/flights-of-fancy-boxshot.jpg');
-        background-size: 50%;
-        background-repeat: no-repeat;
-        background-position: 0% 50%;
-    }
-
-    #title>figure {
-        background: rgba(255, 255, 255, 0.2);
-    }
-
-    article>figure>img {
-        height: 100%;
-        object-fit: cover;
-        object-position: 0% 50%;
-    }
-
-    article>figure>object {
-        width: 60vw;
-        height: 33vw;
-    }
-
-    #gallery {
-        height: 80vh;
-    }
-
-    #gallery>figure {
-        background: rgba(255, 255, 255, 0.2);
-        display: flex;
-        flex-flow: row wrap;
-        align-content: flex-start;
-        justify-content: center;
-    }
-
-    #gallery a {
-        flex-shrink: 1;
-        flex-basis: auto;
-        max-width: 10vw;
-        margin: 5px;
-    }
-
-    #gallery img {
-        width: 100%;
-    }
+#title .title-logo {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    padding: 20px;
 }
+
+/* Video thumbnail link */
+.video-thumb {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--radius-sm);
+}
+
+.video-thumb img {
+    width: 100%;
+    display: block;
+    transition: opacity var(--transition);
+}
+
+.video-thumb:hover img {
+    opacity: 0.85;
+}
+
+.video-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    background: rgba(0, 0, 0, 0.65);
+    border-radius: 50%;
+    pointer-events: none;
+    transition: background var(--transition);
+}
+
+.video-thumb:hover .video-play {
+    background: rgba(255, 0, 0, 0.85);
+}
+
+.video-play::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-width: 11px 0 11px 20px;
+    border-color: transparent transparent transparent #fff;
+}
+

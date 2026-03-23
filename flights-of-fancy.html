@@ -1,7 +1,15 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Double Watt Games</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Flights of Fancy — a dice drafting game themed around craft beer. Seeking publisher." />
+    <title>Flights of Fancy — Double Watt Games</title>
+    <link rel="icon" href="img/double-watt-bulb-logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/title.css" />
@@ -12,107 +20,122 @@
 <body>
     <nav>
         <div>
-            <img src="img/double-watt-bulb-logo.png" />
+            <img src="img/double-watt-bulb-logo.png" alt="Double Watt Games logo" />
             <h1>Double Watt Games</h1>
         </div>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="wasted-youth.html">Wasted Youth</a></li>
-            <li class="current">Flights of Fancy</a></li>
-            <li><a href="fight.html">Fight</li>
+            <li class="current">Flights of Fancy</li>
+            <li><a href="fight.html">Fight</a></li>
             <li><a href="tanks.html">Tanks</a></li>
+            <li><a href="swiss-cheese-union.html">Swiss Cheese Union</a></li>
             <li><a href="bios.html">Bios</a></li>
         </ul>
         <div></div>
     </nav>
+
     <header id="title">
-        <figure><img src="img/flights-of-fancy/flights-of-fancy-logo.png" /></figure>
+        <div class="title-content">
+            <img src="img/flights-of-fancy/flights-of-fancy-logo.png" alt="Flights of Fancy logo" class="title-logo" />
+            <span class="badge badge-seeking">Seeking Publisher</span>
+        </div>
     </header>
+
     <main>
-        <article>
-            <header>
-                <h2>About</h2>
-                <p>Flights of Fancy is a dice drafting game themed around everyone's favorite adult beverage craft
-                    beer. Draw the dice to form your ultimate flight.
-                </p>
-                <ul>
-                    <li><b>Status:</b> Seeking Publisher</li>
-                    <li><b>Mechanics:</b> Dice Drafting, Secret objective</li>
-                </ul>
-            </header>
-            <figure>
-                <img src="img/flights-of-fancy-stills.jpg" />
-            </figure>
-        </article>
-        <article>
-            <header>
-                <h2>Explainer</h2>
-                <p>Thank you to lonely man boardgames for this gorgeous Explainer</p>
-            </header>
-            <figure>
-                <object data='https://www.youtube.com/embed/vFlKUVrHbOo'>
-                </object>
-            </figure>
-        </article>
-        <article id="gallery">
-            <header>
-                <h2>Gallery</h2>
-                <p>See some of the places flights of fancy has been and how it's developed.</p>
-            </header>
-            <figure>
-                <a target="_blank" href="img/flights-of-fancy/gallery-01.jpg">
-                    <img src="img/flights-of-fancy/gallery-01.jpg" />
-                </a target="_blank">
-                <a target="_blank" href="img/flights-of-fancy/gallery-02.jpg">
-                    <img src="img/flights-of-fancy/gallery-02.jpg" />
-                </a>
-                <a target="_blank" href="img/flights-of-fancy/gallery-03.jpg">
-                    <img src="img/flights-of-fancy/gallery-03.jpg" />
-                </a>
-                <a target="_blank" href="img/flights-of-fancy/gallery-04.jpg">
-                    <img src="img/flights-of-fancy/gallery-04.jpg" />
-                </a>
-                <a target="_blank" href="img/flights-of-fancy/gallery-05.jpg">
-                    <img src="img/flights-of-fancy/gallery-05.jpg" />
-                </a>
-                <a target="_blank" href="img/flights-of-fancy/gallery-06.jpg">
-                    <img src="img/flights-of-fancy/gallery-06.jpg" />
-                </a>
-                <a target="_blank" href="img/flights-of-fancy/gallery-07.jpg">
-                    <img src="img/flights-of-fancy/gallery-07.jpg" />
-                </a>
-                <a target="_blank" href="img/flights-of-fancy/gallery-08.jpg">
-                    <img src="img/flights-of-fancy/gallery-08.jpg" />
-                </a>
-                <a target="_blank" href="img/flights-of-fancy/gallery-09.jpg">
-                    <img src="img/flights-of-fancy/gallery-09.jpg" />
-                </a>
-                <a target="_blank" href="img/flights-of-fancy/gallery-10.jpg">
-                    <img src="img/flights-of-fancy/gallery-10.jpg" />
-                </a>
-                <a target="_blank" href="img/flights-of-fancy/gallery-11.jpg">
-                    <img src="img/flights-of-fancy/gallery-11.jpg" />
-                </a>
-                <a target="_blank" href="img/flights-of-fancy/gallery-12.jpg">
-                    <img src="img/flights-of-fancy/gallery-12.jpg" />
-                </a>
-                <a target="_blank" href="img/flights-of-fancy/gallery-13.jpg">
-                    <img src="img/flights-of-fancy/gallery-13.jpg" />
-                </a>
-                <a target="_blank" href="img/flights-of-fancy/gallery-14.jpg">
-                    <img src="img/flights-of-fancy/gallery-14.jpg" />
-                </a>
-                <a target="_blank" href="img/flights-of-fancy/gallery-15.jpg">
-                    <img src="img/flights-of-fancy/gallery-15.jpg" />
-                </a>
-                <a target="_blank" href="img/flights-of-fancy/gallery-16.jpg">
-                    <img src="img/flights-of-fancy/gallery-16.jpg" />
-                </a>              
-            </figure>
-        </article>
+        <div class="game-layout">
+            <div class="game-main">
+                <section class="game-section">
+                    <h2>About</h2>
+                    <p>Flights of Fancy is a dice drafting game themed around everyone's favorite adult beverage —
+                        craft beer. Draw the dice to form your ultimate flight.</p>
+                    <figure class="game-figure">
+                        <img src="img/flights-of-fancy-stills.jpg" alt="Flights of Fancy game" loading="lazy" />
+                    </figure>
+                </section>
+                <section class="game-section">
+                    <h2>Explainer</h2>
+                    <p>Thank you to lonely man boardgames for this gorgeous explainer.</p>
+                    <a href="https://www.youtube.com/watch?v=vFlKUVrHbOo" target="_blank" rel="noopener" class="video-thumb">
+                        <img src="https://img.youtube.com/vi/vFlKUVrHbOo/hqdefault.jpg" alt="Watch the Flights of Fancy explainer on YouTube" />
+                        <span class="video-play" aria-hidden="true"></span>
+                    </a>
+                </section>
+                <section id="gallery" class="game-section">
+                    <h2>Gallery</h2>
+                    <p>See some of the places Flights of Fancy has been and how it's developed.</p>
+                    <figure class="gallery-figure">
+                        <a target="_blank" href="img/flights-of-fancy/gallery-01.jpg">
+                            <img src="img/flights-of-fancy/gallery-01.jpg" alt="Gallery image 1" loading="lazy" />
+                        </a>
+                        <a target="_blank" href="img/flights-of-fancy/gallery-02.jpg">
+                            <img src="img/flights-of-fancy/gallery-02.jpg" alt="Gallery image 2" loading="lazy" />
+                        </a>
+                        <a target="_blank" href="img/flights-of-fancy/gallery-03.jpg">
+                            <img src="img/flights-of-fancy/gallery-03.jpg" alt="Gallery image 3" loading="lazy" />
+                        </a>
+                        <a target="_blank" href="img/flights-of-fancy/gallery-04.jpg">
+                            <img src="img/flights-of-fancy/gallery-04.jpg" alt="Gallery image 4" loading="lazy" />
+                        </a>
+                        <a target="_blank" href="img/flights-of-fancy/gallery-05.jpg">
+                            <img src="img/flights-of-fancy/gallery-05.jpg" alt="Gallery image 5" loading="lazy" />
+                        </a>
+                        <a target="_blank" href="img/flights-of-fancy/gallery-06.jpg">
+                            <img src="img/flights-of-fancy/gallery-06.jpg" alt="Gallery image 6" loading="lazy" />
+                        </a>
+                        <a target="_blank" href="img/flights-of-fancy/gallery-07.jpg">
+                            <img src="img/flights-of-fancy/gallery-07.jpg" alt="Gallery image 7" loading="lazy" />
+                        </a>
+                        <a target="_blank" href="img/flights-of-fancy/gallery-08.jpg">
+                            <img src="img/flights-of-fancy/gallery-08.jpg" alt="Gallery image 8" loading="lazy" />
+                        </a>
+                        <a target="_blank" href="img/flights-of-fancy/gallery-09.jpg">
+                            <img src="img/flights-of-fancy/gallery-09.jpg" alt="Gallery image 9" loading="lazy" />
+                        </a>
+                        <a target="_blank" href="img/flights-of-fancy/gallery-10.jpg">
+                            <img src="img/flights-of-fancy/gallery-10.jpg" alt="Gallery image 10" loading="lazy" />
+                        </a>
+                        <a target="_blank" href="img/flights-of-fancy/gallery-11.jpg">
+                            <img src="img/flights-of-fancy/gallery-11.jpg" alt="Gallery image 11" loading="lazy" />
+                        </a>
+                        <a target="_blank" href="img/flights-of-fancy/gallery-12.jpg">
+                            <img src="img/flights-of-fancy/gallery-12.jpg" alt="Gallery image 12" loading="lazy" />
+                        </a>
+                        <a target="_blank" href="img/flights-of-fancy/gallery-13.jpg">
+                            <img src="img/flights-of-fancy/gallery-13.jpg" alt="Gallery image 13" loading="lazy" />
+                        </a>
+                        <a target="_blank" href="img/flights-of-fancy/gallery-14.jpg">
+                            <img src="img/flights-of-fancy/gallery-14.jpg" alt="Gallery image 14" loading="lazy" />
+                        </a>
+                        <a target="_blank" href="img/flights-of-fancy/gallery-15.jpg">
+                            <img src="img/flights-of-fancy/gallery-15.jpg" alt="Gallery image 15" loading="lazy" />
+                        </a>
+                        <a target="_blank" href="img/flights-of-fancy/gallery-16.jpg">
+                            <img src="img/flights-of-fancy/gallery-16.jpg" alt="Gallery image 16" loading="lazy" />
+                        </a>
+                    </figure>
+                </section>
+            </div>
+            <aside class="game-sidebar">
+                <div class="sidebar-inner">
+                    <h3 class="sidebar-title">Game Details</h3>
+                    <ul class="game-meta">
+                        <li>
+                            <span class="meta-label">Status</span>
+                            <span class="badge badge-seeking">Seeking Publisher</span>
+                        </li>
+                        <li>
+                            <span class="meta-label">Mechanics</span>
+                            <span class="meta-value">Dice Drafting, Secret Objective</span>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
     </main>
+
     <footer>
-        <p>© 2020 by Double Watt Games</p>
+        <p>© 2026 by Double Watt Games</p>
     </footer>
 </body>
 

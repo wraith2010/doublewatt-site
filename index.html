@@ -1,19 +1,26 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Double Watt Games — a board game design studio making games that are fun to play. Mechanics and player agency above all." />
     <title>Double Watt Games</title>
+    <link rel="icon" href="img/double-watt-bulb-logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/title.css" />
     <link rel="stylesheet" href="css/article.css" />
     <link rel="stylesheet" href="css/index.css" />
-    
 </head>
 
 <body>
     <nav>
         <div>
-            <img src="img/double-watt-bulb-logo.png" />
+            <img src="img/double-watt-bulb-logo.png" alt="Double Watt Games logo" />
             <h1>Double Watt Games</h1>
         </div>
         <ul>
@@ -22,12 +29,15 @@
             <li><a href="flights-of-fancy.html">Flights of Fancy</a></li>
             <li><a href="fight.html">Fight</a></li>
             <li><a href="tanks.html">Tanks</a></li>
+            <li><a href="swiss-cheese-union.html">Swiss Cheese Union</a></li>
             <li><a href="bios.html">Bios</a></li>
         </ul>
         <div></div>
     </nav>
     <header id="title">
-        <figure><img src="img/double-watt-logo.png" /></figure>
+        <div class="title-content">
+            <img src="img/double-watt-logo.png" alt="Double Watt Games" class="title-logo" />
+        </div>
     </header>
     <main>
         <article>
@@ -36,16 +46,56 @@
                 <p>Double Watt Games is all about making games that are fun to play. It's a cliche but it's true: We
                     are gamers trying to make the kind of games we want to play. Our game design philosophy can be
                     summed up in three statements. Mechanics and player agency are fun. Rote play and pure random chance
-                    are boring. A good game is as likely to start a friendship as it is to end it. </p>
+                    are boring. A good game is as likely to start a friendship as it is to end it.</p>
             </header>
             <figure>
-                <img src="img/wasted-youth.jpg"/>
+                <img src="img/wasted-youth.jpg" alt="Wasted Youth game" />
             </figure>
-
         </article>
+
+        <section id="games">
+            <h2>Our Games</h2>
+            <div class="games-grid">
+                <a href="wasted-youth.html" class="game-card">
+                    <img src="img/wasted-youth/wasted-youth-logo.jpg" alt="Wasted Youth" />
+                    <div class="game-card-info">
+                        <h3>Wasted Youth</h3>
+                        <span class="badge badge-available">Available Now</span>
+                    </div>
+                </a>
+                <a href="flights-of-fancy.html" class="game-card">
+                    <img src="img/flights-of-fancy/flights-of-fancy-logo.png" alt="Flights of Fancy" />
+                    <div class="game-card-info">
+                        <h3>Flights of Fancy</h3>
+                        <span class="badge badge-seeking">Seeking Publisher</span>
+                    </div>
+                </a>
+                <a href="fight.html" class="game-card">
+                    <img src="img/fight/fight-logo.png" alt="Fight" />
+                    <div class="game-card-info">
+                        <h3>Fight</h3>
+                        <span class="badge badge-prototype">In Development</span>
+                    </div>
+                </a>
+                <a href="tanks.html" class="game-card">
+                    <img src="img/tanks/tanks_logo_red.png" alt="Tanks" />
+                    <div class="game-card-info">
+                        <h3>Tanks</h3>
+                        <span class="badge badge-prototype">Prototype Phase</span>
+                    </div>
+                </a>
+                <a href="swiss-cheese-union.html" class="game-card">
+                    <img src="img/swiss-cheese-union/swiss-cheese-logo.png" alt="Swiss Cheese Union" />
+                    <div class="game-card-info">
+                        <h3>Swiss Cheese Union</h3>
+                        <span class="badge badge-prototype">Prototype Phase</span>
+                    </div>
+                </a>
+            </div>
+        </section>
     </main>
     <footer>
-        <p>© 2020 by Double Watt Games</p>
+        <p>© 2026 by Double Watt Games</p>
     </footer>
 </body>
 

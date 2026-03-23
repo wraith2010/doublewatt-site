@@ -1,17 +1,26 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Double Watt Games</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Meet the team behind Double Watt Games — Ben Mitchell, Brandon Rojas, and Kristen Mitchell." />
+    <title>Bios — Double Watt Games</title>
+    <link rel="icon" href="img/double-watt-bulb-logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/title.css" />
     <link rel="stylesheet" href="css/article.css" />
+    <link rel="stylesheet" href="css/bios.css" />
 </head>
 
 <body>
     <nav>
         <div>
-            <img src="img/double-watt-bulb-logo.png" />
+            <img src="img/double-watt-bulb-logo.png" alt="Double Watt Games logo" />
             <h1>Double Watt Games</h1>
         </div>
         <ul>
@@ -20,53 +29,61 @@
             <li><a href="flights-of-fancy.html">Flights of Fancy</a></li>
             <li><a href="fight.html">Fight</a></li>
             <li><a href="tanks.html">Tanks</a></li>
+            <li><a href="swiss-cheese-union.html">Swiss Cheese Union</a></li>
             <li class="current">Bios</li>
         </ul>
         <div></div>
     </nav>
     <header id="title">
-        <figure><img src="img/double-watt-logo.png" /></figure>
+        <div class="title-content">
+            <img src="img/double-watt-logo.png" alt="Double Watt Games" class="title-logo" />
+        </div>
     </header>
     <main>
-        <article>
-            <header>
-                <h2>Ben Mitchell</h2>
-                <h3>Newtown Square, PA</h3>
-                <p>Ben is a software developer by day but is also one at night. Currently the main fabricator of Double
-                    Watt prototypes and coder of simulation programs.</p>
-                <a href="https://boardgamegeek.com/user/bugsy2010">Ben on Boardgame Geek</a>
-            </header>
-            <figure><img src="img/bios/ben-bio.jpg" style="height: 100%;  object-fit:cover; object-position: 0% 100%;" />
-            </figure>
-        </article>
-        <article>
-            <header>
-                <h2>Brandon Rojas</h2>
-                <h3>Glen Gardner, NJ</h3>
-                <p>Brandon is probably the most avid gamer of the group. Both playing more often and pursuing the newest
-                    and most interesting games. Brandon's love for craft beer is also the inspiration for Double Watt's
-                    newest game, Flights of Fancy.</p>
-                <a href="https://www.boardgamegeek.com/user/BrandonTheRed">Brandon on Boardgame Geek</a>
-            </header>
-            <figure><img src="img/wasted-youth.jpg" style="height: 100%;  object-fit:cover; object-position: 0% 50%;" />
-            </figure>
-        </article>
-        <article>
-            <header>
-                <h2>Kristen Mitchell</h2>
-                <h3>Newtown Square, PA</h3>
-                <p>Kristen was recently promoted to Vice President of booth decorations. The power corrupted her nearly
-                    instantly. Kristen contributes at every level of design. From initial play testing to physical
-                    fabrication of things like custom dice bags and other components. She also has the unenviable task
-                    of proofreading all designs before going to the printer.</p>
-                <a href="https://boardgamegeek.com/user/Agrl1980">Kristen on Boardgame Geek</a>
-            </header>
-            <figure><img src="img/bios/kristen-bio.jpg" style="height: 100%;  object-fit:cover; object-position: 0% 50%;" />
-            </figure>
-        </article>
+        <div class="bios-grid">
+            <article class="bio-card">
+                <figure>
+                    <img src="img/bios/ben-bio.jpg" alt="Ben Mitchell" loading="lazy" style="object-position: 0% 100%;" />
+                </figure>
+                <header>
+                    <h2>Ben Mitchell</h2>
+                    <h3>Newtown Square, PA</h3>
+                    <p>Ben is a software developer by day but is also one at night. Currently the main fabricator of Double
+                        Watt prototypes and coder of simulation programs.</p>
+                    <a href="https://boardgamegeek.com/user/bugsy2010">Ben on Boardgame Geek</a>
+                </header>
+            </article>
+            <article class="bio-card">
+                <figure>
+                    <img src="img/wasted-youth.jpg" alt="Brandon Rojas" loading="lazy" />
+                </figure>
+                <header>
+                    <h2>Brandon Rojas</h2>
+                    <h3>Glen Gardner, NJ</h3>
+                    <p>Brandon is probably the most avid gamer of the group. Both playing more often and pursuing the newest
+                        and most interesting games. Brandon's love for craft beer is also the inspiration for Double Watt's
+                        newest game, Flights of Fancy.</p>
+                    <a href="https://www.boardgamegeek.com/user/BrandonTheRed">Brandon on Boardgame Geek</a>
+                </header>
+            </article>
+            <article class="bio-card">
+                <figure>
+                    <img src="img/bios/kristen-bio.jpg" alt="Kristen Mitchell" loading="lazy" />
+                </figure>
+                <header>
+                    <h2>Kristen Mitchell</h2>
+                    <h3>Newtown Square, PA</h3>
+                    <p>Kristen was recently promoted to Vice President of booth decorations. The power corrupted her nearly
+                        instantly. Kristen contributes at every level of design. From initial play testing to physical
+                        fabrication of things like custom dice bags and other components. She also has the unenviable task
+                        of proofreading all designs before going to the printer.</p>
+                    <a href="https://boardgamegeek.com/user/Agrl1980">Kristen on Boardgame Geek</a>
+                </header>
+            </article>
+        </div>
     </main>
     <footer>
-        <p>© 2020 by Double Watt Games</p>
+        <p>© 2026 by Double Watt Games</p>
     </footer>
 </body>
 

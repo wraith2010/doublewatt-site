@@ -1,7 +1,15 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Double Watt Games</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Fight — a fast-paced free-for-all brawl game with flip and place mechanics. Currently in development by Double Watt Games." />
+    <title>Fight — Double Watt Games</title>
+    <link rel="icon" href="img/double-watt-bulb-logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/title.css" />
@@ -12,7 +20,7 @@
 <body>
     <nav>
         <div>
-            <img src="img/double-watt-bulb-logo.png" />
+            <img src="img/double-watt-bulb-logo.png" alt="Double Watt Games logo" />
             <h1>Double Watt Games</h1>
         </div>
         <ul>
@@ -21,34 +29,55 @@
             <li><a href="flights-of-fancy.html">Flights of Fancy</a></li>
             <li class="current">Fight</li>
             <li><a href="tanks.html">Tanks</a></li>
+            <li><a href="swiss-cheese-union.html">Swiss Cheese Union</a></li>
             <li><a href="bios.html">Bios</a></li>
         </ul>
         <div></div>
     </nav>
+
     <header id="title">
-        <figure><img src="img/fight/fight-logo.png" /></figure>
+        <div class="title-content">
+            <img src="img/fight/fight-logo.png" alt="Fight logo" class="title-logo" />
+            <span class="badge badge-prototype">In Development</span>
+        </div>
     </header>
+
     <main>
-        <article>
-            <header>
-                <h2>About</h2>
+        <div class="game-layout">
+            <div class="game-main">
+                <section class="game-section">
+                    <h2>About</h2>
                     <p>Fight is a fast paced free for all brawl. Every turn players select from the available 4 cards,
-                        placing a block on a matching square on there move cards. Complete one of your moves by covering
+                        placing a block on a matching square on their move cards. Complete one of your moves by covering
                         all its squares and you can attack another player. When players get hit they lose health and any
                         non-continuous placed blocks.</p>
-                    <ul>
-                        <li><b>Status:</b> In Development</li>
-                        <li><b>Mechanics:</b> Flip and Place</li>
+                    <figure class="game-figure">
+                        <img src="img/fight/fight-prototype-02.jpg" alt="Fight prototype" loading="lazy" />
+                    </figure>
+                </section>
+            </div>
+            <aside class="game-sidebar">
+                <div class="sidebar-inner">
+                    <h3 class="sidebar-title">Game Details</h3>
+                    <ul class="game-meta">
+                        <li>
+                            <span class="meta-label">Status</span>
+                            <span class="badge badge-prototype">In Development</span>
+                        </li>
+                        <li>
+                            <span class="meta-label">Mechanics</span>
+                            <span class="meta-value">Flip and Place</span>
+                            <span class="meta-value">Royal Rumble</span>
+                            <span class="meta-value">Drafting</span>
+                        </li>
                     </ul>
-            </header>
-            <figure>
-                <img src="img/fight/fight-prototype-02.jpg"
-                    style="height: 100%;  object-fit:cover; object-position: 0% 50%;" />
-            </figure>
-        </article>
+                </div>
+            </aside>
+        </div>
     </main>
+
     <footer>
-        <p>© 2020 by Double Watt Games</p>
+        <p>© 2026 by Double Watt Games</p>
     </footer>
 </body>
 
