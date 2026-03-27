@@ -79,6 +79,21 @@ footer {
 }
 
 /* ===========================
+   FOOTER LINK
+   =========================== */
+footer a {
+    color: var(--color-surface);
+    text-decoration: none;
+    opacity: 0.75;
+    transition: opacity var(--transition);
+}
+
+footer a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+/* ===========================
    STATUS BADGES
    =========================== */
 .badge {
@@ -91,6 +106,17 @@ footer {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     vertical-align: middle;
+}
+
+a.badge {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 1;
+    transition: filter var(--transition);
+}
+
+a.badge:hover {
+    filter: brightness(1.15);
 }
 
 .badge-available {

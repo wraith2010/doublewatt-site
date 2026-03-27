@@ -230,6 +230,25 @@
     max-width: 120px;
 }
 
+.bgg-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    color: #333;
+}
+
+.bgg-link:hover {
+    text-decoration: underline;
+}
+
+.bgg-logo {
+    height: 18px;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 /* Buy-now button inside sidebar */
 .sidebar-inner .buy-now {
     display: block;

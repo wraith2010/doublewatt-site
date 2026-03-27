@@ -47,37 +47,37 @@
 /* Mobile */
 @media only screen and (max-width: 480px) {
     #title {
-        min-height: 150px;
+        min-height: 180px;
     }
 
     .title-logo {
-        max-width: 70vw;
-        max-height: 22vh;
+        max-width: 82vw;
+        max-height: 28vh;
     }
 }
 
 /* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     #title {
-        min-height: 200px;
-        height: 30vh;
+        min-height: 220px;
+        height: 38vh;
     }
 
     .title-logo {
-        max-width: 55vw;
-        max-height: 24vh;
+        max-width: 68vw;
+        max-height: 30vh;
     }
 }
 
 /* Desktop */
 @media only screen and (min-width: 769px) {
     #title {
-        height: 48vh;
-        min-height: 300px;
+        height: 62vh;
+        min-height: 380px;
     }
 
     .title-logo {
-        max-width: 50vw;
-        max-height: 36vh;
+        max-width: 65vw;
+        max-height: 50vh;
     }
 }

@@ -8,6 +8,30 @@
     padding: 20px;
 }
 
+/* Publisher CTA button */
+.contact-publisher {
+    display: inline-block;
+    background-color: var(--color-seeking);
+    color: var(--color-surface);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: var(--text-lg);
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: var(--radius-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    transition: background-color var(--transition);
+    margin-bottom: 20px;
+}
+
+.contact-publisher:hover,
+.contact-publisher:focus-visible {
+    background-color: #CA6F1E;
+    outline: 2px solid var(--color-seeking);
+    outline-offset: 2px;
+}
+
 /* Video thumbnail link */
 .video-thumb {
     display: block;
