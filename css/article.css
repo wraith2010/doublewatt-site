@@ -226,8 +226,32 @@
 
 .partner-logo {
     display: block;
-    margin-top: 20px;
+    margin: 20px auto 0 auto;
     max-width: 120px;
+}
+
+.download-rules {
+    display: block;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 16px;
+    padding: 10px 24px;
+    background-color: var(--color-bg);
+    color: var(--color-surface);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: var(--text-base);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    border-radius: var(--radius-sm);
+    transition: background-color var(--transition);
+}
+
+.download-rules:hover,
+.download-rules:focus-visible {
+    background-color: #1a4a6e;
 }
 
 .bgg-link {
